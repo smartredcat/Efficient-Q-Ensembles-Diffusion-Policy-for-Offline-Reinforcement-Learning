@@ -1,4 +1,4 @@
-## 基于Q集成下置信域引导的高校扩散策略Efficient Diffusion Policie  for Offline RL &mdash; Official PyTorch Implementation
+## 基于Q集成下置信域引导的高效扩散策略Efficient Diffusion Policie  for Offline RL &mdash; Official PyTorch Implementation
 
 **Diffusion Policies as an Expressive Policy Class for Offline Reinforcement Learning**<br>
 Zhendong Wang, Jonathan J Hunt and Mingyuan Zhou <br>
