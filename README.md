@@ -1,7 +1,7 @@
-## 基于Q集成下置信域引导的高效扩散策略Efficient Diffusion Policie  for Offline RL &mdash; Official PyTorch Implementation
+## 基于Q集成下置信域引导的高效扩散策略 &mdash; Official PyTorch Implementation
 
-**Diffusion Policies as an Expressive Policy Class for Offline Reinforcement Learning**<br>
-Zhendong Wang, Jonathan J Hunt and Mingyuan Zhou <br>
+Efficient Q-Ensemble Diffusion Policy for Offline Reinforcement Learning
+zhangxu zhangfeng <br>
 https://arxiv.org/abs/2208.06193 <br>
 
 Abstract: * Offline reinforcement learning (ORL) often relies on datasets collected by multiple suboptimal or random policies, resulting in complex multimodal action distributions. While diffusion policies can effectively model such distributions and mitigate distributional shift, they suffer from high inference latency due to multi-step reverse diffusion and may still overestimate uncertain out-of-distribution (OOD) actions. To address these limitations, we propose the Efficient Q-Ensemble Diffusion Policy (E2DP). E2DP introduces a two-step reverse inference mechanism that simplifies the standard multi-step diffusion process while maintaining strong multimodal modeling capability. In addition, a lower-confidence-bound (LCB) guided Q-ensemble is designed to enhance estimation reliability by applying independent targets and variance regularization. This allows E2DP to suppress overestimation of uncertain actions using only a small number of Q-networks. Experiments on Bandit and D4RL benchmarks demonstrate that E2DP achieves comparable expressiveness to existing diffusion-based methods while reducing inference latency by approximately 2.5¡Á and attaining the best normalized scores across most tasks, verifying its efficiency and robustness.*
